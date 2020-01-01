@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SMBMS:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SMBMS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.47" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.6" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SMBMS/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+	http://www.springframework.org/schema/mvc
+	http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+<!--    配置处理器映射 /index：请求路径 处理单个请求-->
+<!--    <bean name="/index" class="com.kawa.controller.IndexController"></bean>-->
+<!--    处理多个请求时 采用注解-->
+    <context:component-scan base-package="cn.smbms.**"/>
+    <mvc:annotation-driven/>
+
+<!--    配置视图解析器 前缀  后缀  -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+<!--    mapping:将静态资源映射到指定的路径下  location：本地资源文件所在目录-->
+    <mvc:resources mapping="/statics/**" location="/statics/"/>
+<!--    全局异常配置-->
+<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+    <property name="exceptionMappings">
+        <props>
+            <prop key="java.lang.RuntimeException">error</prop>
+        </props>
+    </property>
+</bean>
+<!--    MultipartResolver解析器-->
+<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+<!--    上传文件大小上限，单位为字节-->
+    <property name="maxUploadSize" value="5000000"/>
+<!--请求的编码格式，默认为ISO-8859-1，此处设置为UTF-8-->
+    <property name="defaultEncoding" value="UTF-8"/>
+</bean>
+    </beans>

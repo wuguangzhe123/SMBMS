@@ -301,10 +301,10 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser/0.23.1440.813@0.23.1440.813" timestamp="1577701934618" />
-    <state x="312" y="33" key="CommitChangelistDialog2" timestamp="1577883225459">
+    <state x="312" y="33" key="CommitChangelistDialog2" timestamp="1577883279255">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="312" y="33" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1577883225459" />
+    <state x="312" y="33" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1577883279255" />
     <state width="958" height="257" key="GridCell.Tab.0.bottom" timestamp="1577818298587">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
@@ -484,6 +484,10 @@
     <state x="384" y="23" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1577879672031" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1577261228510" />
     <state x="208" y="23" width="1024" height="828" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1577191639343" />
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1577883313555">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1577883313555" />
     <state x="376" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1577879639137">
       <screen x="0" y="23" width="1440" height="816" />
     </state>

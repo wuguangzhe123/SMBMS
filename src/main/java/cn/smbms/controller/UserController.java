@@ -7,6 +7,7 @@ import cn.smbms.service.user.UserService;
 import cn.smbms.service.user.UserServiceImpl;
 import cn.smbms.tools.Constants;
 import cn.smbms.tools.PageSupport;
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.mysql.jdbc.StringUtils;
 import com.sun.org.apache.xpath.internal.operations.Mod;
@@ -444,4 +445,25 @@ public String getPwdByUserId(HttpServletRequest request,String oldpassword){
         }
         return JSONArray.toJSONString(resultMap);
     }
+
+
+    @RequestMapping(value = "/view.html",method = RequestMethod.GET)
+    @ResponseBody
+    //根据id获取用户对象
+    public Object view(@RequestParam String id){
+        String cjson="";
+        if(id==null||"".equals(id)){
+            return "nodata";
+        }else{
+            try {
+                User user=userService.getUserById(id);
+                cjson=JSON.toJSONString(user);
+            }catch (Exception e){
+                e.printStackTrace();
+                return "failed";
+            }
+        }
+        return cjson;
+    }
+
 }

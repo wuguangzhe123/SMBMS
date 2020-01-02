@@ -8,21 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b60c367-3648-42c0-affa-b6fc92d54298" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../IdeaProjects/SpringmvcDemo01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IdeaProjects/SpringmvcDemo01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/WEB-INF/classes/cn/smbms/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/WEB-INF/classes/cn/smbms/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/WEB-INF/classes/cn/smbms/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/WEB-INF/classes/cn/smbms/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/WEB-INF/classes/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/WEB-INF/classes/springmvc-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/WEB-INF/jsp/userlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/WEB-INF/jsp/userlist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/statics/js/userlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SMBMS_war_exploded/statics/js/userlist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/smbms/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/smbms/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/smbms/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/smbms/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userlist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/statics/js/userlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/userlist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/smbms/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/smbms/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/smbms/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/smbms/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +285,7 @@
       <workItem from="1577877983382" duration="1207000" />
       <workItem from="1577879523626" duration="438000" />
       <workItem from="1577883169611" duration="3367000" />
-      <workItem from="1577925434074" duration="8403000" />
+      <workItem from="1577925434074" duration="8514000" />
     </task>
     <task id="LOCAL-00001" summary="jjj">
       <created>1577883279976</created>
@@ -356,7 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577928276622</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="a44!!">
+      <created>1577938246125</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577938246125</updated>
+    </task>
+    <task id="LOCAL-00010" summary="a44!!111">
+      <created>1577938316685</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577938316685</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +371,8 @@
     <MESSAGE value="a" />
     <MESSAGE value="a44" />
     <MESSAGE value="a44!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="a44!!" />
+    <MESSAGE value="a44!!111" />
+    <option name="LAST_COMMIT_MESSAGE" value="a44!!111" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="96" key="#Notifications" timestamp="1577890142022">
@@ -395,10 +397,10 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="533" y="125" key="#com.intellij.ide.util.MemberChooser/0.23.1440.813@0.23.1440.813" timestamp="1577701934618" />
-    <state x="312" y="33" key="CommitChangelistDialog2" timestamp="1577938285036">
+    <state x="312" y="33" key="CommitChangelistDialog2" timestamp="1577938316492">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="312" y="33" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1577938285036" />
+    <state x="312" y="33" key="CommitChangelistDialog2/0.23.1440.813@0.23.1440.813" timestamp="1577938316492" />
     <state x="144" y="80" key="DiffContextDialog" timestamp="1577890537474">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
@@ -587,10 +589,10 @@
     <state x="384" y="23" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1577879672031" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1577261228510" />
     <state x="208" y="23" width="1024" height="828" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1577191639343" />
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2" timestamp="1577938262588">
+    <state x="321" y="157" key="Vcs.Push.Dialog.v2" timestamp="1577938320689">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="320" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1577938262588" />
+    <state x="321" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.813@0.23.1440.813" timestamp="1577938320689" />
     <state x="376" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1577925441347">
       <screen x="0" y="23" width="1440" height="813" />
     </state>

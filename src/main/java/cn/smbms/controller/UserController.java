@@ -446,8 +446,8 @@ public String getPwdByUserId(HttpServletRequest request,String oldpassword){
         return JSONArray.toJSONString(resultMap);
     }
 
-
-    @RequestMapping(value = "/view.html",method = RequestMethod.GET)
+//,produces = {"application/json;charset=UTF-8"}
+    @RequestMapping(value = "/view",method = RequestMethod.GET)
     @ResponseBody
     //根据id获取用户对象
     public Object view(@RequestParam String id){
@@ -465,5 +465,5 @@ public String getPwdByUserId(HttpServletRequest request,String oldpassword){
         }
         return cjson;
     }
-
+//11111
 }

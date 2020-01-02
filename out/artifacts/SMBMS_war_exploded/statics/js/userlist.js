@@ -53,7 +53,38 @@ $(function(){
 		//将被绑定的元素（a）转换成jquery对象，可以使用jquery方法
 		var obj = $(this);
 		//查看个人信息操作1
-		window.location.href=path+"/user/view/"+ obj.attr("userid");
+		// window.location.href=path+"/user/view/"+ obj.attr("userid");
+		//JSON获取用户信息操作2  注释上面的那一句
+		$.ajax({
+			type:"GET",
+			url:path+"/user/view",
+			data:{id:obj.attr("userid")},
+			dataType:"json",
+			success:function(result){
+				//alert(result.userName);
+				if("failed" == result){
+					alert("操作超时！");
+				}else if("nodata" == result){
+					alert("没有数据！");
+				}else{
+					$("#v_userCode").val(result.userCode);
+					$("#v_userName").val(result.userName);
+					if(result.gender == "1"){
+						$("#v_gender").val("男");
+					}else if(result.gender == "2"){
+						$("#v_gender").val("女");
+					}
+					$("#v_birthday").val(result.birthday);
+					$("#v_phone").val(result.phone);
+					$("#v_address").val(result.address);
+					$("#v_userRoleName").val(result.userRoleName);
+				}
+
+			},
+			error:function(data){
+				alert("error!");
+			}
+		});
 	});
 	
 	$(".modifyUser").on("click",function(){

@@ -1,5 +1,6 @@
 package cn.smbms.pojo;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Component;
 
@@ -12,6 +13,7 @@ public class User {
 	private String userPassword; //用户密码
 	private Integer gender;  //性别
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
+//	@JSONField(format = "yyyy-MM-dd")
 	private Date birthday;  //出生日期
 	private String phone;   //电话
 	private String address; //地址
